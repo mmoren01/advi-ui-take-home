@@ -79,20 +79,20 @@ Initial Project Notes:
 
 ## Tasks
 
-[x] Create a new repo with PR template
-[ ] Initialize a Next.js aoo
-[ ] Install MUI
-[ ] Install React Query
-[ ] Install Jest
-[ ] Install React Testing Library
-[ ] Research APIs
-[ ] Diagram app flow
-[ ] Create a list of components
-[ ] Create a list of pages
-[ ] Create a list of API calls
-[ ] Create a list of API filters and sort options (if applicable)
-[ ] Create a list of API parameters
-[ ] Error handling
-[ ] Unit testing
-[ ] Solution.md
-[ ] REACH GOAL: Deployment
+- [x] Create a new repo with PR template
+- [ ] Initialize a Next.js aoo
+- [ ] Install MUI
+- [ ] Install React Query
+- [ ] Install Jest
+- [ ] Install React Testing Library
+- [ ] Research APIs
+- [ ] Diagram app flow
+- [ ] Create a list of components
+- [ ] Create a list of pages
+- [ ] Create a list of API calls
+- [ ] Create a list of API filters and sort options (if applicable)
+- [ ] Create a list of API parameters
+- [ ] Error handling
+- [ ] Unit testing
+- [ ] Solution.md
+- [ ] REACH GOAL: Deployment
