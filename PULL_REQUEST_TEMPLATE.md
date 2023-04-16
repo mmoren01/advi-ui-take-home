@@ -6,10 +6,6 @@ Please provide a brief description of the changes in this PR.
 
 Please list the changes made in this PR.
 
-## Related Issues
-
-Please list any related issues or PRs.
-
 ## Checklist
 
 - [ ] I have tested this code.
