@@ -77,6 +77,10 @@ Initial Project Notes:
   - Jest - Unit testing
   - React Testing Library - Unit testing
 
+Next.js
+
+- Opted to do manual creation of the Next.js to avoid any bloated dependencies
+
 ## Tasks
 
 - [x] Create a new repo with PR template
