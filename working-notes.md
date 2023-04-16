@@ -67,7 +67,7 @@ The website should be responsive and have a modern, clean design.
 Initial Project Notes:
 
 - Add unit tests for components - Jest and React Testing Library
-- Use a linter - Does Next add one?
+- Use a linter - Does Next add one? - Confirmed it does
 - Need to find a good free API for this. Research is needed
 - Create a list of tasks to keep myself organized
 - Current stack:
@@ -77,22 +77,30 @@ Initial Project Notes:
   - Jest - Unit testing
   - React Testing Library - Unit testing
 
+Next.js
+
+- Opted to do manual creation of the Next.js to avoid any bloated dependencies
+- Decided to Jest for unit testing due to familiarity
+- Decided to use React Testing Library to support unit testing due to familiarity
+- Added first unit test to ensure Jest and React Testing Library are working
+- Fixed PR template not showing up in PRs
+
 ## Tasks
 
-[x] Create a new repo with PR template
-[ ] Initialize a Next.js aoo
-[ ] Install MUI
-[ ] Install React Query
-[ ] Install Jest
-[ ] Install React Testing Library
-[ ] Research APIs
-[ ] Diagram app flow
-[ ] Create a list of components
-[ ] Create a list of pages
-[ ] Create a list of API calls
-[ ] Create a list of API filters and sort options (if applicable)
-[ ] Create a list of API parameters
-[ ] Error handling
-[ ] Unit testing
-[ ] Solution.md
-[ ] REACH GOAL: Deployment
+- [x] Create a new repo with PR template
+- [x] Initialize a Next.js app
+- [x] Install Jest
+- [x] Install React Testing Library
+- [ ] Install MUI
+- [ ] Install React Query
+- [ ] Research APIs
+- [ ] Diagram app flow
+- [ ] Create a list of components
+- [ ] Create a list of pages
+- [ ] Create a list of API calls
+- [ ] Create a list of API filters and sort options (if applicable)
+- [ ] Create a list of API parameters
+- [ ] Error handling
+- [ ] Unit testing
+- [ ] Solution.md
+- [ ] REACH GOAL: Deployment
