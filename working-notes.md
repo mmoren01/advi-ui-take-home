@@ -80,8 +80,10 @@ Initial Project Notes:
 Next.js
 
 - Opted to do manual creation of the Next.js to avoid any bloated dependencies
-- Decided to Jest for unit testing
-- Decided to use React Testing Library to support unit testing
+- Decided to Jest for unit testing due to familiarity
+- Decided to use React Testing Library to support unit testing due to familiarity
+- Added first unit test to ensure Jest and React Testing Library are working
+- Fixed PR template not showing up in PRs
 
 ## Tasks
 
