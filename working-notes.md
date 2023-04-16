@@ -86,9 +86,9 @@ Next.js
 ## Tasks
 
 - [x] Create a new repo with PR template
-- [ ] Initialize a Next.js app
-- [ ] Install Jest
-- [ ] Install React Testing Library
+- [x] Initialize a Next.js app
+- [x] Install Jest
+- [x] Install React Testing Library
 - [ ] Install MUI
 - [ ] Install React Query
 - [ ] Research APIs
