@@ -67,7 +67,7 @@ The website should be responsive and have a modern, clean design.
 Initial Project Notes:
 
 - Add unit tests for components - Jest and React Testing Library
-- Use a linter - Does Next add one?
+- Use a linter - Does Next add one? - Confirmed it does
 - Need to find a good free API for this. Research is needed
 - Create a list of tasks to keep myself organized
 - Current stack:
@@ -80,15 +80,17 @@ Initial Project Notes:
 Next.js
 
 - Opted to do manual creation of the Next.js to avoid any bloated dependencies
+- Decided to Jest for unit testing
+- Decided to use React Testing Library to support unit testing
 
 ## Tasks
 
 - [x] Create a new repo with PR template
-- [ ] Initialize a Next.js aoo
-- [ ] Install MUI
-- [ ] Install React Query
+- [ ] Initialize a Next.js app
 - [ ] Install Jest
 - [ ] Install React Testing Library
+- [ ] Install MUI
+- [ ] Install React Query
 - [ ] Research APIs
 - [ ] Diagram app flow
 - [ ] Create a list of components
