@@ -79,6 +79,7 @@ Initial Project Notes:
 
 ## Tasks
 
+[x] Create a new repo with PR template
 [ ] Initialize a Next.js aoo
 [ ] Install MUI
 [ ] Install React Query
