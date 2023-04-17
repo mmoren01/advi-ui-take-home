@@ -1,5 +1,13 @@
+import { Box, Typography } from "@mui/material"
+
 function HomePage() {
-  return <div>Welcome to Next.js!</div>
+  return (
+    <Box textAlign="center">
+      <Typography variant="h1">
+        Welcome to Next.js!
+      </Typography>
+    </Box>
+  )
 }
 
 export default HomePage
