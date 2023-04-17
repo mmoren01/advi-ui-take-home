@@ -85,13 +85,21 @@ Next.js
 - Added first unit test to ensure Jest and React Testing Library are working
 - Fixed PR template not showing up in PRs
 
+MUI
+
+- I realized my babel config was causing me more issues than it was worth. I decided to remove it and use the default Next.js babel config when I learned about the Jest support in Next.js.
+- I added the MUI boiler plate set up to the project.
+- The main reason I wanted to get MUI set up early was to take advantage of their component library. It is accessible and responsive out of the box. I also wanted to get the theme set up early so I could use it to style the app.
+- I added a linter to the project to keep my code clean and consistent. I chose ESLint because it is the most popular linter and it is supported by Next.js.
+- I added a basic layout component to the project. As well as some basic styling to the layout component.
+
 ## Tasks
 
 - [x] Create a new repo with PR template
 - [x] Initialize a Next.js app
 - [x] Install Jest
 - [x] Install React Testing Library
-- [ ] Install MUI
+- [x] Install MUI
 - [ ] Install React Query
 - [ ] Research APIs
 - [ ] Diagram app flow
