@@ -4,5 +4,8 @@
 # dependencies
 node_modules/
 
+# Environment variables
+.env.local
+
 # IDE files
 .vscode/
