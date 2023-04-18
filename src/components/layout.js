@@ -2,13 +2,14 @@ import { Container } from '@mui/material'
 
 const styles = {
   main: {
+    alignContent: 'center',
     m: 5,
   }
 }
 
 export default function Layout({ children }) {
   return (
-    <Container maxWidth="md" component="main" sx={styles.main}>
+    <Container component="main" sx={styles.main}>
       {children}
     </Container>
   )
