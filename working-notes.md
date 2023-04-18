@@ -93,6 +93,12 @@ MUI
 - I added a linter to the project to keep my code clean and consistent. I chose ESLint because it is the most popular linter and it is supported by Next.js.
 - I added a basic layout component to the project. As well as some basic styling to the layout component.
 
+API Research
+
+- Selected the News API for this project. It is free, allows me to query the data by search terms, category, date, and popularity
+- I decided to implement React Query to handle the API state. I chose React Query because it is a popular library and it is supported by Next.js. I also chose it because it is easy to use and it is well documented. I decided to do this early to take advantage of the caching and prefetching features to help me save on API calls.
+- I decided to use make the api calls from an api folder in the project to act as my pseudo api proxy server. I did this to keep the api calls out of the components and to keep the components clean and easy to read. I also did this to make it easier protect the api key if I decide to deploy the app.
+
 ## Tasks
 
 - [x] Create a new repo with PR template
@@ -100,8 +106,8 @@ MUI
 - [x] Install Jest
 - [x] Install React Testing Library
 - [x] Install MUI
-- [ ] Install React Query
-- [ ] Research APIs
+- [x] Install React Query
+- [x] Research APIs
 - [ ] Diagram app flow
 - [ ] Create a list of components
 - [ ] Create a list of pages
