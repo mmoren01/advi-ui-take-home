@@ -99,6 +99,21 @@ API Research
 - I decided to implement React Query to handle the API state. I chose React Query because it is a popular library and it is supported by Next.js. I also chose it because it is easy to use and it is well documented. I decided to do this early to take advantage of the caching and prefetching features to help me save on API calls.
 - I decided to use make the api calls from an api folder in the project to act as my pseudo api proxy server. I did this to keep the api calls out of the components and to keep the components clean and easy to read. I also did this to make it easier protect the api key if I decide to deploy the app.
 
+Components
+
+- Based my component list on this !(diagram)[https://imgur.com/W7QyB6M]
+- Component List:
+  - Layout
+  - SearchBar
+  - CategorySelector
+  - Filters
+  - ArticleList
+  - ArticleCard
+  - Paginator
+  - NumberOfArticles
+- Still deciding how to allow a user to read the articles
+  - MVP - Open the article in a card/modal
+
 ## Tasks
 
 - [x] Create a new repo with PR template
@@ -108,8 +123,8 @@ API Research
 - [x] Install MUI
 - [x] Install React Query
 - [x] Research APIs
-- [ ] Diagram app flow
-- [ ] Create a list of components
+- [x] Diagram app flow
+- [x] Create a list of components
 - [ ] Create a list of pages
 - [ ] Create a list of API calls
 - [ ] Create a list of API filters and sort options (if applicable)
