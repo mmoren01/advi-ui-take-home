@@ -7,12 +7,41 @@ import {
   Stack,
   Typography
 } from '@mui/material'
-import { useQuery, useQueryClient } from 'react-query'
+import { dehydrate, useQuery, useQueryClient, QueryClient } from 'react-query'
 
 import { ArticleQueriesContext } from '../src/context/article-query-context'
 import getNewsArticles from './../src/queries/news'
 import SearchBar from '../src/components/search-bar'
 import NewsList from '../src/components/news-card-list'
+
+export async function getServerSideProps() {
+  if (process.env.LOCAL_HOST_MODE === 'true') {
+    return { props: {} }
+  }
+
+  const queryClient = new QueryClient()
+  await queryClient.prefetchQuery(
+    ['everything', '', 5, 1, 'publishedAt'],
+    () =>
+      getNewsArticles({
+        category: 'everything',
+        q: '',
+        pageSize: 5,
+        page: 1,
+        sortBy: 'publishedAt',
+      }),
+    {
+      retry: false,
+      staleTime: 1000 * 60 * 60 * 24,
+    }
+  )
+
+  return {
+    props: {
+      dehydratedState: dehydrate(queryClient),
+    },
+  } 
+}
 
 const handleChangeGeneral = (event, params, target, setter, callback, page) => {
   setter((prev) => ({
